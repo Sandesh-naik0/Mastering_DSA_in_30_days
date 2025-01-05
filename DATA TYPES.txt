@@ -1,0 +1,29 @@
+DATA TYPES
+
+Code:
+package abstractDataType;
+public class dataType {
+		public static void main(String[] args) {
+			System.out.println("Different types of primitive data types : ");
+			System.out.println("Non-Integer datatypes : ");
+			boolean b= true;
+			char c = 'h';
+			System.out.println("Boolean : "+b);
+			System.out.println("char : "+c);
+
+			System.out.println("Integer datatypes : ");
+			byte by = 127;
+			short s = 32767;
+			long l = 1000000000;
+			int i = 2147483647;
+			System.out.println("byte : "+by);
+			System.out.println("short : " +s);
+			System.out.println("long : " +l);
+			System.out.println("integer : " +i);
+			System.out.println("Floating datatypes : ");
+			float f = 5.85f;
+			double d = 12.58;	
+			System.out.println("float : "+f);
+			System.out.println("double : "+d);
+		}	
+}
