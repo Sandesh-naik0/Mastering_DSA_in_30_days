@@ -1,4 +1,5 @@
 DATA TYPES
+This program demonstrates the primitive data types in java.
 
 Code:
 package abstractDataType;
@@ -20,6 +21,7 @@ public class dataType {
 			System.out.println("short : " +s);
 			System.out.println("long : " +l);
 			System.out.println("integer : " +i);
+
 			System.out.println("Floating datatypes : ");
 			float f = 5.85f;
 			double d = 12.58;	
@@ -27,3 +29,4 @@ public class dataType {
 			System.out.println("double : "+d);
 		}	
 }
+
